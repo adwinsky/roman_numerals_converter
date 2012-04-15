@@ -1,6 +1,6 @@
-# RomanNumeralsConverter
+# Roman Numerals Converter
 
-RomanNumeralsConverter is a simple tool that provides API for converting arabic numerals to roman and vice versa.
+Roman Numerals Converter is a simple tool that provides API for converting arabic numerals to roman and vice versa.
 
 ## Installation
 
@@ -24,8 +24,8 @@ API is simple, it provides following method:
 10.to_arabic                           # => "X"
 RomanNumeralsConverter::is_arabic? 10  # => true
 RomanNumeralsConverter::is_roman? "X" # => true
-RomanNumeralsConverter::to_roman? 10  # => "X"
-RomanNumeralsConverter::to_arabic? "X" # => 10
+RomanNumeralsConverter::to_roman 10  # => "X"
+RomanNumeralsConverter::to_arabic "X" # => 10
 ```
 
 Note that the maximum Roman number supported is 3999 (MMMCMXCIX).
