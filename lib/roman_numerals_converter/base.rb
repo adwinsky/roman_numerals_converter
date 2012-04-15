@@ -94,15 +94,5 @@ module RomanNumeralsConverter
       end
       arabic_number
     end
-
-    private
-
-    def number_from_mappings number
-      RomanNumeralsConverter::MAPPINGS.each_pair do |key, val|
-        if number == val
-          return key
-        end
-      end
-    end
   end
 end
