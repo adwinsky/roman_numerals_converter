@@ -23,8 +23,8 @@ API is simple, it provides following method:
 ```ruby
 10.to_arabic                           # => "X"
 RomanNumeralsConverter::is_arabic? 10  # => true
-RomanNumeralsConverter::is_romain? "X" # => true
-RomanNumeralsConverter::to_romain? 10  # => "X"
+RomanNumeralsConverter::is_roman? "X" # => true
+RomanNumeralsConverter::to_roman? 10  # => "X"
 RomanNumeralsConverter::to_arabic? "X" # => 10
 ```
 
